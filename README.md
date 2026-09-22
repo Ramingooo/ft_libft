@@ -17,7 +17,7 @@
 
 **Libft** is the very first project in the 42 / 1337 curriculum. The objective is to build a foundational static library (`libft.a`) in **C** containing standard library re-implementations and commonly used utility functions.
 
-This library serves as the backbone for future 42 projects (such as *ft_printf*, *get_next_line*, *pipex*, *minishell*, and more).
+This library serves as the backbone for future 42 projects (such as *ft_printf*, *get_next_line*, and more).
 
 ---
 
