@@ -8,7 +8,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-blue.svg" alt="Language C" />
-  <img src="https://img.shields.io/badge/Norminette-Passing-brightgreen.svg" alt="Norminette" />
   <img src="https://img.shields.io/badge/1337-Common%20Core-000000.svg" alt="1337" />
 </p>
 
@@ -18,7 +17,7 @@
 
 **Libft** is the very first project in the 42 / 1337 curriculum. The objective is to build a foundational static library (`libft.a`) in **C** containing standard library re-implementations and commonly used utility functions.
 
-This library is built strictly following the **42 Norm (v3/v4)** and serves as the backbone for future 42 projects (such as *ft_printf*, *get_next_line*, *pipex*, *minishell*, and more).
+This library serves as the backbone for future 42 projects (such as *ft_printf*, *get_next_line*, *pipex*, *minishell*, and more).
 
 ---
 
@@ -127,14 +126,3 @@ To use this library in another C project:
    gcc -Wall -Wextra -Werror main.c -L. -lft -o my_program
    ./my_program
    ```
-
----
-
-## 🛡️ Norminette & Code Standards
-
-This project complies strictly with the **42 Norm**:
-- No global variables.
-- Maximum 25 lines per function.
-- No `for`, `do-while`, or `switch` statements.
-- Memory leak free (all dynamic allocations properly validated and freed on failure).
-- Verified against integer overflow edge cases (`INT_MIN`, `SIZE_MAX`).
